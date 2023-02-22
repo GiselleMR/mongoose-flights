@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-// optional shortcut variable
+
 const Schema = mongoose.Schema;
 
 const ticketSchema= new Schema({
