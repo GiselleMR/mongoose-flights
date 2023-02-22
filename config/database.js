@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-
-mongoose.connect(process.env.DATABASE_URL);
+console.log()
+mongoose.connect("mongodb+srv://GiselleMR:711763Rmg@cluster0.f603j8n.mongodb.net/mongoose-flights?retryWrites=true&w=majority");
 
 // shortcut var to mongoose.connection object
 const db = mongoose.connection;
