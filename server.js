@@ -5,11 +5,10 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const methodOverride = require('method-override');
 
-// connect to the database with Mongoose
 require('./config/database');
 
-var indexRouter = require('./routes/index');
-var flightsRouter = require('./routes/flights');
+const indexRouter = require('./routes/index');
+const flightsRouter = require('./routes/flights');
 const destinationsRouter = require('./routes/destinations');
 const ticketsRouter = require('./routes/tickets')
 
